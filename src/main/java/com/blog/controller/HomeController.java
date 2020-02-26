@@ -1,11 +1,11 @@
-package blog.controller;
+package com.blog.controller;
 
-import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
 
 import static org.springframework.web.bind.annotation.RequestMethod.GET;
 
-@Controller
+@RestController
 public class HomeController {
 
     @RequestMapping(value="/", method=GET)
